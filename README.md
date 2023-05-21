@@ -1,1 +1,2 @@
 # Salad-Cpu-Mining
+- Salad has recently removed support for cpu mining, opting for cpu containers. Some people are having lots of difficulty obtaining these container jobs, so this script will automatically run XMRIG (or any other cli miner) while the salad vmmem task is not running. This will not go to your salad balance, but to the monero wallet specified in your xmrig config. To use, in the main.py file specify your xmrig executable location, run pip3 install pymem, then just run python main.py
